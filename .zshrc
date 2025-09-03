@@ -1,4 +1,4 @@
-export LANG=zh_CN.UTF-8
+# export LANG=zh_CN.UTF-8
 #### 配置目录 #####
 #### 配置目录优化版 ####
 ZSHCONF_DIR="${HOME}/.zshconf"  # 使用变量存储路径
@@ -253,3 +253,4 @@ alias gmail="git config --global user.email 1014150883@qq.com"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
