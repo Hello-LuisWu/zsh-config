@@ -61,7 +61,7 @@ cat /etc/shells
 **执行命令：**
 
 ```shell
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 ```
 
 **注意**：Rocky linux 切换命令为：
