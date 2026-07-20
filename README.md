@@ -64,9 +64,25 @@ cat /etc/shells
 chsh -s $(which zsh)
 ```
 
-**注意**：Rocky linux 切换命令为：
+**注意**：可能找不到 chsh 命令：
 
-```shell
+```sh
+安装：
+sudo dnf install -y util-linux-user
+
+
+# 查看 zsh 路径
+which zsh
+
+然后：
+chsh -s /usr/bin/zsh
+
+如果是 root：
+chsh -s /usr/bin/zsh root
+```
+
+还可以：
+```sh
 # root 是你当前的用户名
 usermod -s /bin/zsh root
 ```
