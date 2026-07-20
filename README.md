@@ -64,12 +64,11 @@ cat /etc/shells
 chsh -s $(which zsh)
 ```
 
-**注意**：可能找不到 chsh 命令：
+**注意**：rockylinux 可能找不到 chsh 命令：
 
 ```sh
 安装：
 sudo dnf install -y util-linux-user
-
 
 # 查看 zsh 路径
 which zsh
@@ -81,7 +80,7 @@ chsh -s /usr/bin/zsh
 chsh -s /usr/bin/zsh root
 ```
 
-还可以：
+rockylinux 还可以：
 ```sh
 # root 是你当前的用户名
 usermod -s /bin/zsh root
